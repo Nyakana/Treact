@@ -97,3 +97,47 @@ h1{
     opacity: 0.5;
     font-weight: 600;
 }
+.input_btn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #dbcdf773;
+    padding-right: 10px;
+}
+input{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 12px;
+    
+}
+button{
+    background: #6415FF;
+    padding: 4px 6px;
+    border: none;
+    border-radius: 20px;
+}
+/* ------------------------------------------------------------------- */
+h5{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.features_header{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+.features_para{
+    font-size: 18px;
+   line-height: 1.6;
+    margin-top: 16px;
+}
+h2{
+    font-size: 48px;
+    font-weight: 900;
+}
