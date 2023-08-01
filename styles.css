@@ -103,7 +103,7 @@ input{
     padding: 20px 30px;
     font-size: 18px;
 }
-button .btn_qty-work{
+button{
     border: none;
     background-color: #6415FF;
     border-radius: 50px;
