@@ -9,7 +9,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 32px;
+    padding: 30px 30px 0;
 }
 .colored{
     color: #6415FF;
@@ -69,75 +69,174 @@
 /* --------------------------------------------------------------------- */
 
 .container{
-   width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 94px 0;
-    justify-content: flex-end;
+    padding: 92px 0;
+    
 }
-.home_img{
-    width: 100%;
+.header_desricption{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 }
-.logo_strip{
-    width: 100%;
-    margin-top: 16px;
-    padding-right: 64px;
+.header_title{
+    font-size: 48px;
 }
-h1{
-    font-size: 44px;
-    font-weight: 700;
-}
-.para{
-    font-size: 16px;
-    margin: 32px 0;
+.header_para{
+    font-size: 18px;
     line-height: 1.5;
-}
-.customers_title{
-    margin-top: 80px;
-    opacity: 0.5;
-    font-weight: 600;
+    margin: 32px 0;
 }
 .input_btn{
     display: flex;
-    align-items: center;
-    width: 100%;
+    flex: 1;
     justify-content: space-between;
-    border-radius: 20px;
-    background-color: #dbcdf773;
-    padding-right: 10px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 2px solid grey;
+    overflow: hidden;
 }
 input{
     border: none;
     background-color: transparent;
-    font-size: 16px;
-    padding: 12px;
-    
+    padding: 20px 30px;
+    font-size: 18px;
 }
-button{
-    background: #6415FF;
-    padding: 4px 6px;
+button .btn_qty-work{
     border: none;
-    border-radius: 20px;
-}
-/* ------------------------------------------------------------------- */
-h5{
-    margin-bottom: 16px;
-    font-weight: 700;
+    background-color: #6415FF;
+    border-radius: 50px;
+    margin: 8px 8px 8px 0;
+    color: #ffffff;
+    padding: 16px;
     font-size: 16px;
 }
+.customers_title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    opacity: 0.5;
+}
+.customers_title--para{
+    font-size: 18px;
+    font-weight: 600;
+}.logo_strip{
+    width: 100%;
+    padding-right: 128px;
+    margin-top: 16px;
+}
+.home_img{
+   width: 100%;
+   max-width: 700px;
+}
+
+/* ------------------------------------------------------------------- */
 .features_header{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0 auto;
-    text-align: center;
-    justify-content: space-between;
 }
-.features_para{
-    font-size: 18px;
-   line-height: 1.6;
-    margin-top: 16px;
+h5{
+    font: 700;
+    font-size: 16px;
+    margin-bottom: 16px;
 }
 h2{
     font-size: 48px;
     font-weight: 900;
+}
+.features_para{
+    font-size: 18px;
+    text-align: center;
+    max-width: 36rem;
+    margin-top: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    --tw-text-opacity: 1;
+    color: rgb(124 139 161 / var(--tw-text-opacity));
+}
+.features{
+    display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   margin-top: 32px;
+    
+}
+.features_subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 16px;
+    padding: 32px 8px;
+    width: 30.5%;
+    
+}
+.img_container{
+    border: 1px solid #25549667;
+    padding: 20px;
+    border-radius: 50px;
+    align-items: center;
+    
+}
+.text_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+.features_description--title{
+    font-weight: 600;
+    font-size: 16px;
+}
+.features_description--para{
+    margin-top: 16px;
+    width: 80%;
+    line-height: 1.6;
+}
+.container{
+    padding: 92px 0;
+}
+.qty_work--container{
+    width: 50%;
+}
+.home_img--hero{
+    width: 100%;
+    max-width: 500px;
+}
+.btn_qty-work{
+    border: none;
+    background-color: #6415FF;
+    border-radius: 50px;
+    margin: 8px 8px 8px 0;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 16px;
+    margin-top: 32px;
+}
+.qty_work-para{
+    font-size: 18px;
+    max-width: 36rem;
+    margin-top: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    --tw-text-opacity: 1;
+    color: rgb(124 139 161 / var(--tw-text-opacity));
+}
+/* ---------------------------------------------------------------------- */
+.steps_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 92px 0;
+   
+}
+.steps{
+    width: 100%;
+    max-width: 500px;
+}
+.steps_title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
